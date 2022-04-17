@@ -1,0 +1,20 @@
+---
+layout: default
+title: Projects
+permalink: /projects.html
+description: Contains projects I have worked on or am currently working on.
+---
+<section class="featured-posts">
+    <div class="section-title">
+        <h2><span>Featured</span></h2>
+    </div>
+    <div class="row">
+
+    {% for project in site.projects %}
+         
+         {% include featuredprojectbox.html %}
+
+    {% endfor %}
+
+    </div>
+</section>

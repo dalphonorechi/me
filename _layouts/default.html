@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+<link rel="icon" href="{{ site.baseurl }}/assets/images/dologo.png">
 
 <title>{{ page.title }} | {{site.name}}</title>
 
@@ -49,7 +49,7 @@ ga('send', 'pageview');
 
     <!-- Begin Logo -->
     <a class="navbar-brand" href="{{ site.baseurl }}/">
-    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+    <img src="{{ site.baseurl }}/{{ site.logo }}" width="40" height="35" alt="{{ site.name }}">
     </a>
     <!-- End Logo -->
 
@@ -59,6 +59,7 @@ ga('send', 'pageview');
 
     <div class="collapse navbar-collapse" id="navbarMediumish">
 
+
         <!-- Begin Menu -->
 
             <ul class="navbar-nav ml-auto">
@@ -66,16 +67,27 @@ ga('send', 'pageview');
                 {% if page.url == "/" %}
                 <li class="nav-item active">
                 {% else %}
-                <li class="nav-item">
+                <li class="nav-item ">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
-                </li>
+
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/portfolio">Portfolio</a>
+                </li> -->
+
 
                 <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/projects.html">Projects</a>
+                </li>
+                 
+                <li class="nav-item">
+                     <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
+                </li>
+
+                <!-- <li class="nav-item">
                 <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-                </li>
+                </li> -->
 
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
                 </li>
 
@@ -89,7 +101,7 @@ ga('send', 'pageview');
 
                 <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
-                </li>
+                </li> -->
 
                 {% include search-lunr.html %}
 
@@ -111,9 +123,9 @@ ga('send', 'pageview');
 <!-- Site Title
 ================================================== -->
 <div class="mainheading">
-    <h1 class="sitetitle">{{ site.name }}</h1>
+    <h1 class="sitetitle">{{ page.title }}</h1>
     <p class="lead">
-        {{ site.description }}
+        {{ page.description }}
     </p>
 </div>
 
@@ -174,9 +186,9 @@ ga('send', 'pageview');
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+            <!-- <div class="col-md-6 col-sm-6 text-center text-lg-right">    
                 <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
-            </div>
+            </div> -->
         </div>
     </div>
 </footer>
