@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/me/5g-greatest-thing-to-iot/</loc>
+<lastmod>2020-12-27T00:00:00+03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/me/projects/dunda/</loc>
+<lastmod>2022-04-19T10:34:52+03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/me/projects/nikokadi/</loc>
+<lastmod>2022-04-19T10:34:52+03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/me/about</loc>
+</url>
+<url>
+<loc>http://localhost:4000/me/categories</loc>
+</url>
+<url>
+<loc>http://localhost:4000/me/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/me/portfolio</loc>
+</url>
+<url>
+<loc>http://localhost:4000/me/projects.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/me/tags</loc>
+</url>
+<url>
+<loc>http://localhost:4000/me/category/tech/</loc>
+</url>
+</urlset>
